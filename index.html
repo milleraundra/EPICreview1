@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<title>Portfolio: Aundra Miller</title>
+  	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   	<link href="css/mystyles.css "rel="stylesheet" type="text/css">
   </head>
 
   <body>
-  	<header>
+  	<header class="navbar navbar-default">
   		<h1>Aundra Miller</h1>
   		<ul>
-			<a href=""><li>Home</li></a>
+			<a href="#" ><li>Home</li></a>
 			<li>Projects
 				<ul>
-					<a href="http://milleraundra.github.io/vacation-site/"><li>Kauai</li></a>
-					<a href="http://milleraundra.github.io/boring_lecture/"><li>Accounting</li></a>
-					<a href="http://milleraundra.github.io/cupcake/"><li>Cupcake Shop</li></a>
+					<a href="http://milleraundra.github.io/vacation-site/" target="_blank"><li>Kauai</li></a>
+					<a href="http://milleraundra.github.io/cupcake/" target="_blank"><li>Cupcake Shop</li></a>
+					<a href="http://milleraundra.github.io/boring_lecture/" target="_blank"><li>Accounting</li></a>
 				</ul>
 			</li>
 			<a href="#AboutMe"><li>About Me</li></a>
@@ -28,19 +32,38 @@
 			</div>
   		</div>
 
-  		<div class="welcome">
-  			<h2>Welcome!</h2>
-  			<p>Thank you for your interest in my work. Below is a collection of several of my projects, followed by a brief bio about my background and work as a front-end developer.</p>
-  			<img src="images/profile_resized.jpg">
+  		<div class="row">
+	  		<div class="welcome">
+	  			<div class="col-md-8">
+		  			<h2>Welcome!</h2>
+		  			<p>Thank you for your interest in my work. Below is a collection of several of my projects, followed by a brief bio about my background and work as a front-end developer.</p>
+	  			</div>
+				
+				<div class="col-md-4">	  			
+	  				<img class="img-responsive" src="images/profile_resized.jpg">
+	  			</div>
+	  		</div>
   		</div>
+
 
   		<div class="projects">
   			<div class="row">
+
   				<div class="col-md-4">
-  					<a href=""><img src=""></a>
-  					<a href=""><img src=""></a>
-  					<a href=""><img src=""></a>
+  					<a href="http://milleraundra.github.io/vacation-site/"><img class="img-responsive" src="images/kauai.jpg"></a>
+  					<p>Travellers to Kauai can easily find popular destinations, recommended restaurants, suitable housing, and more.</p>
   				</div>
+
+  				<div class="col-md-4">
+  					<a href="http://milleraundra.github.io/cupcake/"><img class="img-responsive" src="images/cupcakeshop.jpg"></a>
+  					<p>One of Portland's finest cupcake shops showcase their selection of unique and intriguing cupcakes.</p>
+  				</div>
+
+  				<div class="col-md-4">
+   					<a href="http://milleraundra.github.io/boring_lecture/"><img class="img-responsive" src="images/accounting.jpg"></a>
+   					<p>Students prank their accounting teacher with an ironic and humerous site.</p>
+  				</div>
+  				
   			</div>
   		</div>
 
@@ -74,19 +97,19 @@
   				<p>I am one of five girls, raised by my loving parents in Oregon City, OR. Outside of programming, I enjoy music, sports, computer games, art, and writing.</p>
 
   				<p>After receiving my high school diploma, I took a year of college classes at Clackamas Community College before deciding to attend Epicodus.</p>
-  			</div>
-
-  			
-
-  			
-
+  			</div>	
   		</div>
+
+  		<footer>
+  			<div class="row">
+  				<h2>Contact Me!</h2>
+  				<p>If you like what you see, you can contact me directly at 503-318-4888.</p>
+  				<p>I look foward to hearing from you!</p>
+
+  			</div>
+  		</footer>
   		
 
   	</div>
-
-
-
-
   </body>
 </html>
