@@ -24,29 +24,27 @@ _This web page is meant to neatly display a portfolio of previous work and share
 
 _No bugs identified._
 
-## Support and contact details
+## Support and Contact Details
 
-_For problems, questions, ideas, or concerns with the code, feel free to contact me directly at miller.aundra@gmail.com._
+For problems, questions, ideas, or concerns with the code, feel free to contact me directly at miller.aundra@gmail.com.
 
-_Feel free to make any edits, adjustments, or alterations to customize the code tp improve it and make it your own._
+Feel free to make any edits, adjustments, or alterations to customize the code tp improve it and make it your own.
 
 ## Technologies Used
 
-*_ HTML
-*_ CSS
-*_ Bootstrap
+* HTML
+* CSS
+* Bootstrap
 
 ### License
 
 The MIT License (MIT)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
 
-_Copyright (c) [2016] [Aundra Miller]_
+Copyright (c) 2016 Aundra Miller
