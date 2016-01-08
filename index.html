@@ -12,15 +12,16 @@
   	<div class="container">
 	  	<header class="page-header">
 	  		<div class="">
-		  		<ul class="nav nav-tabs pull-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Projects</a>
-						<!-- <ul>
-							<li><a href="http://milleraundra.github.io/vacation-site/" target="_blank">Kauai</a></li>
-							<li><a href="http://milleraundra.github.io/cupcake/" target="_blank">Cupcake Shop</a></li>
-							<li><a href="http://milleraundra.github.io/boring_lecture/" target="_blank">Accounting</a></li>
-						</ul> -->
-					</li>
+		  		<ul class="nav nav-default nav-pills pull-right">
+					<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown"><a data-toggle="dropdown" data-target="#">Projects<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://milleraundra.github.io/vacation-site/" target="_blank">Kauai</a></li>
+								<li><a href="http://milleraundra.github.io/cupcake/" target="_blank">Cupcake Shop</a></li>
+								<li><a href="http://milleraundra.github.io/boring_lecture/" target="_blank">Accounting</a></li>
+							</ul>
+						</li>
+					
 					<li><a href="#AboutMe">About Me</a></li>
 		  		</ul>
 		  		<h1>Aundra Miller</h1>
@@ -36,47 +37,67 @@
 			</div>
   		</div>
 
-  		<div class="row">
-	  		<div class="welcome">
-	  			<div class="col-md-8">
+  		<div class="welcome">
+	  		<div class="row">
+	  			<div class="col-md-offset-2 col-md-5 col-sm-6">
 		  			<h2>Welcome!</h2>
 		  			<p>Thank you for your interest in my work. Below is a collection of several of my projects, followed by a brief bio about my background and work as a front-end developer.</p>
 	  			</div>
 				
-				<div class="col-md-4">	  			
-	  				<img class="img-responsive" src="images/profile_resized.jpg">
+				<div class="col-md-3 col-sm-6">	  			
+	  				<img class="img-responsive img-rounded" src="images/profile_resized.jpg">
 	  			</div>
 	  		</div>
   		</div>
 
 
   		<div class="projects">
-  			<div class="row">
+  			<!-- <div class="container"> -->
+	  			<div class="row">
+	  				<div class="kauai col-sm-4">
+	  				<h3>Kauai</h3>
+	  					<div class="hovereffect">
+		  					<img class="img-responsive img-thumbnail" src="images/kauai.jpg" target="_blank" alt="website thumbnail">
+		  					<div class="overlay">
+		  						<a class="info" href="http://milleraundra.github.io/vacation-site/" target="_blank">View Site</a>
+		  					</div>
+		  				</div>
+		  				<p>Travellers to Kauai can easily find popular destinations, recommended restaurants, suitable housing, and more.</p>
+	  					
+	  				</div>
 
-  				<div class="col-md-4">
-  					<a href="http://milleraundra.github.io/vacation-site/"><img class="img-responsive" src="images/kauai.jpg"></a>
-  					<p>Travellers to Kauai can easily find popular destinations, recommended restaurants, suitable housing, and more.</p>
-  				</div>
+	  				<div class="cupcake col-sm-4">
+	 	  			<h3>Cupcakes</h3>
+	  					<div class="hovereffect">
+		  					<img class="img-responsive img-thumbnail" src="images/cupcakeshop.jpg" target="_blank" alt="website thumbnail">
+		  					<div class="overlay">
+		  						<a class="info" href="http://milleraundra.github.io/cupcake/" target="_blank">View Site</a>
+		  					</div>
+		  				</div>
+	  					<p>One of Portland's finest cupcake shops showcase their selection of unique and intriguing cupcakes.</p>
 
-  				<div class="col-md-4">
-  					<a href="http://milleraundra.github.io/cupcake/"><img class="img-responsive" src="images/cupcakeshop.jpg"></a>
-  					<p>One of Portland's finest cupcake shops showcase their selection of unique and intriguing cupcakes.</p>
-  				</div>
+	  				</div>
 
-  				<div class="col-md-4">
-   					<a href="http://milleraundra.github.io/boring_lecture/"><img class="img-responsive" src="images/accounting.jpg"></a>
-   					<p>Students prank their accounting teacher with an ironic and humerous site.</p>
-  				</div>
-  				
-  			</div>
+	  				<div class="accounting col-sm-4">
+	  					<h3>Accounting</h3>
+	  					<div class="hovereffect">
+		  					<img class="img-responsive img-thumbnail" src="images/accounting.jpg" target="_blank" alt="website thumbnail">
+		  					<div class="overlay">
+		  						
+		  						<a class="info" href="http://milleraundra.github.io/boring_lecture/" target="_blank">View Site</a>
+		  					</div>
+		  				</div>
+	   					<p>Students prank their accounting teacher with an ironic and humerous site.</p>
+	  				</div>
+	  			</div>	
+  			
   		</div>
 
-  		<div class="row">
-  			<h2>About Me:</h2>
-  		</div>
+  		<!---About Me -->
 
   		<div id="AboutMe" class="aboutme">
-  			<div class="skills">
+  			<h1>About Me:</h1>
+  			<div class="skills space">
   				<h3>Skills:</h3>
 					<h4>Programming:</h4>
 					<p>Following my training at Epicodus, I will be able to skillfully program in PHP, JavaScript, and Drupal, navigate a BASH console, and manage projects in GitHub. I also have experience setting up and working inside of WordPress themes.</p>
@@ -89,14 +110,14 @@
 					</ul>
   			</div>
 
-  			<div class="jobexp">
+  			<div class="jobexp space">
   				<h3>Job Experience:</h3>
   				<p>After graduating high school, I was trained as a test processor and tutor for a local Christian academy. One year later, I was trained and hired as a content developer for an Inbound marketing agency in Washington.</p>
 
   				<p>During my time as a writer, I had the opportunity to create several websites for clients using WordPress. Inspired by the beauty, complexity, and power of many impressive websites, I realized the kind of potential these websites could have for small businesses and non-profits. Driven by a desire to create functional, impressive, and memorable websites, I chose to pursue a career in website design and development.</p>
   			</div>
 
-  			<div class="bckgrnd">
+  			<div class="bckgrnd space">
   				<h3>Background:</h3>
   				<p>I am one of five girls, raised by my loving parents in Oregon City, OR. Outside of programming, I enjoy music, sports, computer games, art, and writing.</p>
 
@@ -104,12 +125,15 @@
   			</div>	
   		</div>
 
+  		<!-- Footer / Contact -->
+
   		<footer>
   			<div class="row">
+  				<div class="col-sm-8">
   				<h2>Contact Me!</h2>
   				<p>If you like what you see, you can contact me directly at 503-318-4888.</p>
   				<p>I look foward to hearing from you!</p>
-
+  				</div>
   			</div>
   		</footer>
   		
