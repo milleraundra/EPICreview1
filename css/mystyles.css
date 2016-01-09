@@ -4,7 +4,7 @@
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #000;
     /*background-color: #337ab7;*/
-	background-color: #debdc0!important;
+	background-color: #f0f0f0;
 }
 
 /* General styles*/
@@ -26,6 +26,10 @@ h2 {
 	background-color: #9fdbaf;
 }
 
+.jumbotron h1, .jumbotron p {
+	text-align: center;
+}
+
 /* Welcome styles*/
 
 .container .welcome .row {
@@ -36,12 +40,13 @@ h2 {
 /* Projects */
 
 .projects {
-	background-color: #dfa69f;
+	background-color: #d2b48c;
 	padding: 0 15px;
 	border-radius: 8px;
 }
 .projects img {
 	margin-top: 15px;
+	margin-bottom: 15px;
 
 }
 
@@ -58,27 +63,42 @@ h2 {
 	margin-bottom: 20px;
 }
 .aboutme .space{
-	padding: 15px;
+	padding: 30px;
 }
 
 .skills {
-	background-color: #9fd8b8;
+	background-color: #9fdbaf;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 
 }
 
 .jobexp {
-	background-color: #dfa69f;
+	background-color: #d2b48c;
 
 }
 
 .bckgrnd {
 	background-color: #cfffe7;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
 
 }
 
 /* Contact Me */
+
+.contact {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #9fdbaf;
+	color: #000;
+	border-radius: 8px;
+}
+
+
+
 
 
 
