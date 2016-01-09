@@ -6,18 +6,18 @@
 
 ## Description
 
-_This web page is meant to neatly display a portfolio of previous work and share the subject's  background, skills, and experience. The styles and laout are accomplished using HTML, CSS, and Bootstrap._
+_This web page is meant to neatly display a portfolio of previous work and share the subject's  background, skills, and experience. The styles and layout are accomplished using HTML, CSS, and Bootstrap._
 
 ## Setup/Installation Requirements
 
 ### To View:
 
-1. View this portfolio live here: 
+1. View this portfolio live here: http://milleraundra.github.io/EPICreview1/
 
 ### To Edit & Customize:
 
 1. Clone this repository.
-2. Open index.html in a simple text editor.
+2. Open in a simple text editor.
 3. Make desired changes.
 
 ## Known Bugs
@@ -28,7 +28,7 @@ _No bugs identified._
 
 For problems, questions, ideas, or concerns with the code, feel free to contact me directly at miller.aundra@gmail.com.
 
-Feel free to make any edits, adjustments, or alterations to customize the code tp improve it and make it your own.
+Feel free to make any edits, adjustments, or alterations to customize the code to improve it and make it your own.
 
 ## Technologies Used
 
